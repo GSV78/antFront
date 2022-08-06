@@ -6,22 +6,23 @@ function Header() {
     <div>
       {/* Хоп-Хей-Ла-Ла-Лэй! */}
       <div className={styles.header}>
-        <div className={`${styles.inner_header}  ${styles.flex}`}>
-          <div className={styles.leftSection}>
-            <svg
-              version="1.0"
-              className={styles.logo}
-              xmlns="http://www.w3.org/2000/svg"
-              width="56.000000pt"
-              height="47.000000pt"
-              viewBox="0 0 860.000000 771.000000"
-              preserveAspectRatio="xMidYMid meet">
-              <g
-                transform="translate(0.000000,771.000000) scale(0.100000,-0.100000)"
-                fill="#ffffff"
-                stroke="none">
-                <path
-                  d="M5985 7292 c-42 -20 -95 -73 -120 -122 -8 -16 -55 -123 -104 -237
+        <div className={styles.container}>
+          <div className={`${styles.inner_header}  ${styles.flex}`}>
+            <div className={styles.leftSection}>
+              <svg
+                version="1.0"
+                className={styles.logo}
+                xmlns="http://www.w3.org/2000/svg"
+                width="56.000000pt"
+                height="47.000000pt"
+                viewBox="0 0 860.000000 771.000000"
+                preserveAspectRatio="xMidYMid meet">
+                <g
+                  transform="translate(0.000000,771.000000) scale(0.100000,-0.100000)"
+                  fill="#ffffff"
+                  stroke="none">
+                  <path
+                    d="M5985 7292 c-42 -20 -95 -73 -120 -122 -8 -16 -55 -123 -104 -237
 -197 -462 -402 -908 -431 -937 -40 -40 -110 -45 -266 -17 -229 40 -405 54
 -684 54 -288 0 -458 -14 -711 -59 -276 -49 -270 -48 -310 -31 -51 21 -76 59
 -159 242 -40 88 -127 282 -195 430 -67 149 -150 334 -185 412 -88 202 -147
@@ -49,20 +50,21 @@ l87 117 75 -133 c390 -691 520 -929 509 -937 -6 -5 -79 -44 -162 -86 -180 -90
 c131 -25 283 -142 388 -299 100 -149 154 -307 192 -561 28 -190 27 -208 -25
 -356 -64 -183 -146 -343 -203 -401 -84 -84 -198 -118 -315 -93 -347 72 -620
 558 -594 1059 11 220 76 395 190 518 67 71 123 107 199 127 65 18 99 19 168 6z"
-                />
-              </g>
-            </svg>
-            <h1>Хоп-Хей-Ла-Ла-Лэй.рф</h1>
-          </div>
-          <h2>Монтаж кондиционеров, СКУД, видеонаблюдения, компьютерных сетей, электропроводки</h2>
-          <div className={styles.rigthSection}>
-            <div className={styles.phone}>
-              <strong>+7 (960) 777-77-77</strong>
+                  />
+                </g>
+              </svg>
+              <h1>Муравей33.рф</h1>
             </div>
-            <div className={styles.button}>Заказать звонок</div>
+            <h2 className={styles.subTitle}>
+              Монтаж и наладка кондиционеров, СКУД, видеонаблюдения, компьютерных сетей, умный дом,
+              электромонтаж. Сдача "под ключ". Сервисное обслуживание.
+            </h2>
+            <div className={styles.rigthSection}>
+              <div className={styles.phone}>+7 (960) 777-77-77</div>
+              <button className={styles.button}>Заказать звонок</button>
+            </div>
           </div>
         </div>
-
         <div>
           <svg
             className={styles.waves}
