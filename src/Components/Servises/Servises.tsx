@@ -39,16 +39,14 @@ function Servises() {
         <div className={styles.card}>
           <div className={styles.content}>
             <h2 className={styles.title}>Умный дом</h2>
-            <p className={styles.copy}>От наблюдения до управления. Кабельное и спутниковое ТВ.</p>
+            <p className={styles.copy}>Бытовая автоматизация. Кабельное и спутниковое ТВ.</p>
             <button className={styles.btn}>Подробнее</button>
           </div>
         </div>
         <div className={styles.card}>
           <div className={styles.content}>
             <h2 className={styles.title}>Электромонтаж</h2>
-            <p className={styles.copy}>
-              Проводка, заземление, электрощиты, шкафы автоматики, АИИС КУЭ.
-            </p>
+            <p className={styles.copy}>Проводка, заземление, электрощиты, автоматика, АИИС КУЭ.</p>
             <button className={styles.btn}>Подробнее</button>
           </div>
         </div>

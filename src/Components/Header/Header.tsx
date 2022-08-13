@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from '../Button/Button';
 import styles from './Header.module.css';
 
 function Header() {
@@ -60,8 +61,12 @@ c131 -25 283 -142 388 -299 100 -149 154 -307 192 -561 28 -190 27 -208 -25
               электромонтаж. Сдача "под ключ". Сервисное обслуживание.
             </h2>
             <div className={styles.rigthSection}>
-              <div className={styles.phone}>+7 (960) 777-77-77</div>
-              <button className={styles.button}>Заказать звонок</button>
+              <div>
+                <div className={styles.phone}>+7 (960) 777-77-77</div>
+                <div className={styles.subPhone}>Viber, Telegram, WhatsApp</div>
+              </div>
+              {/* <button className={styles.button}>Заказать звонок</button> */}
+              <Button />
             </div>
           </div>
         </div>

@@ -1,16 +1,15 @@
 import React from 'react';
 import Header from './Components/Header/Header';
 import Servises from './Components/Servises/Servises';
+import Content from './Components/Content/Content';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      {/* <header className="App-header">
-        <Header />
-      </header> */}
       <Header />
       <Servises />
+      <Content />
     </div>
   );
 }

@@ -28,7 +28,7 @@ h1 {
   z-index: 2;
 }
 
-.button,
+
 .phone {
   /* font-family: 'Roboto', sans-serif; */
   /* font-family: 'M PLUS Rounded 1c', sans-serif; */
@@ -90,6 +90,10 @@ h1 {
   font-size: 36px;
   padding-right: 20px;
   color: #ffbb00;
+}
+.subPhone{
+  text-align: end;
+  margin-right: 25px;
 }
 .button {
   font-size: 24px;
