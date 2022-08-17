@@ -12,13 +12,13 @@ h1 {
 }
 
 .container{
-  max-width: 1720px;
+  max-width: 1140px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
 .subTitle {
-  max-width: 480px;
+  max-width: 100%;
   /* font-family: 'Roboto', sans-serif; */
   /* font-family: 'M PLUS Rounded 1c', sans-serif; */
   font-family: 'Ubuntu', sans-serif;
