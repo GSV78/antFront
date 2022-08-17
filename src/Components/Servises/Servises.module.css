@@ -6,21 +6,13 @@
   --font-serif: 'Cardo', serif;
 }
 .container {
-  max-width: 1140px;
+  max-width: 1400px;
   margin: 10px auto;
-  /* padding: 40px 20px; */
-  /* height: 100%; */
-  /* border-radius: 10px;
-  background-color: rgba(255, 187, 0, 0.25) */
 }
 .subTitle {
   font-size: 2rem;
 }
 
-/* .body {
-  display: grid;
-  place-items: center;
-} */
 .page_content {
   display: flex;
   flex-direction: row;
@@ -43,7 +35,7 @@
 }
 .card {
   border-radius: 10px;
-  margin: 15px;
+  margin: 25px;
   position: relative;
   display: flex;
   align-items: flex-end;
@@ -122,6 +114,9 @@
 .card:nth-child(6):before {
   background-image: url(../../images/electrical.jpg);
 }
+.card:nth-child(7):before {
+  background-image: url(../../images/gsm-antenna-1499519.jpg);
+}
 .content {
   position: relative;
   display: flex;
@@ -136,7 +131,7 @@
   margin-top: 1rem;
 }
 .title {
-  color:azure;
+  color: azure;
   text-shadow: 2px 2px 3px black;
   font-size: 1.3rem;
   font-weight: bold;

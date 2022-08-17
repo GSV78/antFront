@@ -1,3 +1,4 @@
 .App {
   text-align: center;
+  background: linear-gradient(180deg, #fff 20%, rgb(0, 7, 73) 100%);
 }

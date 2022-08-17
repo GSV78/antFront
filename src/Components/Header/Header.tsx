@@ -54,14 +54,13 @@ c131 -25 283 -142 388 -299 100 -149 154 -307 192 -561 28 -190 27 -208 -25
                   />
                 </g>
               </svg>
-              <h1>Муравей33.рф</h1>
+              <h1 className={styles.title}>Муравей33.рф</h1>
             </div>
             <div className={styles.rigthSection}>
               <div>
                 <div className={styles.phone}>+7 (960) 777-77-77</div>
                 <div className={styles.subPhone}>Viber, Telegram, WhatsApp</div>
               </div>
-              {/* <button className={styles.button}>Заказать звонок</button> */}
               <Button />
             </div>
           </div>

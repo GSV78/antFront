@@ -32,7 +32,7 @@ function Servises() {
         <div className={styles.card}>
           <div className={styles.content}>
             <h2 className={styles.title}>Цифровые сети</h2>
-            <p className={styles.copy}>Компьютерные сети, ВОЛС, серверные, GSM-оборудование</p>
+            <p className={styles.copy}>Компьютерные сети, ВОЛС, организация серверных</p>
             <button className={styles.btn}>Подробнее</button>
           </div>
         </div>
@@ -47,6 +47,13 @@ function Servises() {
           <div className={styles.content}>
             <h2 className={styles.title}>Электромонтаж</h2>
             <p className={styles.copy}>Проводка, заземление, электрощиты, автоматика, АИИС КУЭ.</p>
+            <button className={styles.btn}>Подробнее</button>
+          </div>
+        </div>
+        <div className={styles.card}>
+          <div className={styles.content}>
+            <h2 className={styles.title}>GSM-системы</h2>
+            <p className={styles.copy}>Усилители сигнала, GSM/WiFi комплекты, сигнализации.</p>
             <button className={styles.btn}>Подробнее</button>
           </div>
         </div>
