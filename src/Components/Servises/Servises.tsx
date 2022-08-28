@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Servises.module.css';
+import {NavLink} from 'react-router-dom'
 
 function Servises() {
   return (
@@ -12,49 +13,49 @@ function Servises() {
           <div className={styles.content}>
             <h2 className={styles.title}>Кондиционеры</h2>
             <p className={styles.copy}>От бытовых до профессиональных климатических систем</p>
-            <button className={styles.btn}>Подробнее</button>
+            <NavLink to='/conditioners' className={styles.btn}>Подробнее</NavLink>
           </div>
         </div>
         <div className={styles.card}>
           <div className={styles.content}>
             <h2 className={styles.title}>Видеонаблюдение</h2>
             <p className={styles.copy}>От одиночных ip-камер до систем видеонаблюдения</p>
-            <button className={styles.btn}>Подробнее</button>
+            <NavLink to='/cameras' className={styles.btn}>Подробнее</NavLink>
           </div>
         </div>
         <div className={styles.card}>
           <div className={styles.content}>
             <h2 className={styles.title}>СКУД</h2>
             <p className={styles.copy}>Картридеры, триподы, шлагбаумы, автоматические ворота </p>
-            <button className={styles.btn}>Подробнее</button>
+            <NavLink to='/security' className={styles.btn}>Подробнее</NavLink>
           </div>
         </div>
         <div className={styles.card}>
           <div className={styles.content}>
             <h2 className={styles.title}>Цифровые сети</h2>
             <p className={styles.copy}>Компьютерные сети, ВОЛС, организация серверных</p>
-            <button className={styles.btn}>Подробнее</button>
+            <NavLink to='/network' className={styles.btn}>Подробнее</NavLink>
           </div>
         </div>
         <div className={styles.card}>
           <div className={styles.content}>
             <h2 className={styles.title}>Умный дом</h2>
             <p className={styles.copy}>Бытовая автоматизация. Кабельное и спутниковое ТВ.</p>
-            <button className={styles.btn}>Подробнее</button>
+            <NavLink to='/smarthome' className={styles.btn}>Подробнее</NavLink>
           </div>
         </div>
         <div className={styles.card}>
           <div className={styles.content}>
             <h2 className={styles.title}>Электромонтаж</h2>
             <p className={styles.copy}>Проводка, заземление, электрощиты, автоматика, АИИС КУЭ.</p>
-            <button className={styles.btn}>Подробнее</button>
+            <NavLink to='/install' className={styles.btn}>Подробнее</NavLink>
           </div>
         </div>
         <div className={styles.card}>
           <div className={styles.content}>
             <h2 className={styles.title}>GSM-системы</h2>
             <p className={styles.copy}>Усилители сигнала, GSM/WiFi комплекты, сигнализации.</p>
-            <button className={styles.btn}>Подробнее</button>
+            <NavLink to='/gsm' className={styles.btn}>Подробнее</NavLink>
           </div>
         </div>
       </section>

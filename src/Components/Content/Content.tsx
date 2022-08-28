@@ -2,6 +2,9 @@ import styles from './Content.module.css';
 import { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import Conditioners from '../Conditioners/Conditioners';
+import Cameras from '../Cameras/Cameras';
+import Security from '../Security/Security';
 
 function Content() {
   useEffect(() => {
@@ -12,6 +15,7 @@ function Content() {
       <div data-aos="fade-up" className={styles.box}>
         <div>
           <img
+            alt="team"
             className={styles.pic}
             src="https://img.freepik.com/free-photo/business-concept-with-team-close-up_23-2149151159.jpg?w=1380&t=st=1660414587~exp=1660415187~hmac=2656d8552e60011eed267267225331dd653101e11cb12f5f5fb35ce7870c15f6"></img>
           <div>
@@ -35,13 +39,13 @@ function Content() {
         </div>
       </div>
       <div data-aos="fade-up" className={styles.box}>
-        <h2>Content2</h2>
+        <Conditioners />
       </div>{' '}
       <div data-aos="fade-up" className={styles.box}>
-        <h2>Content3</h2>
+        <Cameras />
       </div>{' '}
       <div data-aos="fade-up" className={styles.box}>
-        <h2>Content4</h2>
+        <Security />
       </div>{' '}
       <div data-aos="fade-up" className={styles.box}>
         <h2>Content5</h2>
@@ -49,7 +53,7 @@ function Content() {
       <div data-aos="fade-up" className={styles.box}>
         <h2>Content6</h2>
       </div>{' '}
-      <div data-aos="flip-down" className={styles.box}>
+      <div data-aos="fade-up" className={styles.box}>
         <h2>Content7</h2>
       </div>
     </div>
