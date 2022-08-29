@@ -1,12 +1,12 @@
 import React from 'react'
-import styles from './item.module.css'
+import styles from '../item.module.css'
 import image from '../../images/wepik-photo-mode-202274-204916.png'
 
 function Security() {
   return (
     <div className={styles.container}> 
       <img
-        alt="team"
+        alt="security"
         className={styles.pic}
         src={image}></img>
       <div>

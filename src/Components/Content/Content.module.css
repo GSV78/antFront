@@ -36,7 +36,7 @@
 .box {
   margin: 20px;
   background: linear-gradient(60deg, rgba(84, 58, 183, 1) 0%, rgba(0, 172, 193, 1) 100%);
-  color: #fff;
+  color: #000;
   max-width: 1400px;
   /* max-height: 500px; */
   border-radius: 15px;

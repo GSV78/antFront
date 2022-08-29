@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './item.module.css'
+import styles from '../item.module.css'
 import image from '../../images/security-cameras-white-modern-building-technology-concept.jpg'
 
 
@@ -7,7 +7,7 @@ function Cameras() {
   return (
     <div className={styles.container}> 
       <img
-        alt="team"
+        alt="cameras"
         className={styles.pic}
         src={image}></img>
       <div>

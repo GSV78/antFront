@@ -1,12 +1,12 @@
 import React from 'react'
-import styles from './item.module.css'
+import styles from '../item.module.css'
 import image from '../../images/wind-spring-white-stratosphere-pure.jpg'
 
 function Conditioners() {
   return (
     <div className={styles.container}> 
       <img
-        alt="team"
+        alt="conditioners"
         className={styles.pic}
         src={image}></img>
       <div>

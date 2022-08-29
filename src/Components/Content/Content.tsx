@@ -5,6 +5,10 @@ import 'aos/dist/aos.css';
 import Conditioners from '../Conditioners/Conditioners';
 import Cameras from '../Cameras/Cameras';
 import Security from '../Security/Security';
+import Network from '../Network/Network';
+import Install from '../Install/Install';
+import Smarthome from '../Smarthome/Smarthome';
+import Gsm from '../Gsm/Gsm';
 
 function Content() {
   useEffect(() => {
@@ -38,6 +42,7 @@ function Content() {
           </div>
         </div>
       </div>
+      {/* <h3>Мы предлагаем услуги по монтажу и наладке:</h3> */}
       <div data-aos="fade-up" className={styles.box}>
         <Conditioners />
       </div>{' '}
@@ -48,13 +53,16 @@ function Content() {
         <Security />
       </div>{' '}
       <div data-aos="fade-up" className={styles.box}>
-        <h2>Content5</h2>
+        <Network />
       </div>{' '}
       <div data-aos="fade-up" className={styles.box}>
-        <h2>Content6</h2>
+        <Smarthome />
       </div>{' '}
       <div data-aos="fade-up" className={styles.box}>
-        <h2>Content7</h2>
+        <Install />
+      </div>{' '}
+      <div data-aos="fade-up" className={styles.box}>
+        <Gsm />
       </div>
     </div>
   );
