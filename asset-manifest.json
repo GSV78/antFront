@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.23d38db8.css",
-    "main.js": "/static/js/main.c856dc78.js",
-    "static/media/security-cameras-white-modern-building-technology-concept.jpg": "/static/media/security-cameras-white-modern-building-technology-concept.c2dac4e34cb0432b104d.jpg",
-    "static/media/wepik-photo-mode-202274-204916.png": "/static/media/wepik-photo-mode-202274-204916.57f80b2fb3293c3c6839.png",
-    "static/media/electrical.jpg": "/static/media/electrical.2642d1b27aa04a7058e9.jpg",
-    "static/media/wind-spring-white-stratosphere-pure.jpg": "/static/media/wind-spring-white-stratosphere-pure.33fba2c06e70137f1806.jpg",
-    "static/media/network.jpg": "/static/media/network.d1efcd5a4c01a0d91401.jpg",
-    "static/media/gsm-antenna-1499519.jpg": "/static/media/gsm-antenna-1499519.ef79297425cefdabeece.jpg",
-    "static/media/smartHome.jpg": "/static/media/smartHome.6b0866565075a2d8c537.jpg",
-    "index.html": "/index.html",
-    "main.23d38db8.css.map": "/static/css/main.23d38db8.css.map",
-    "main.c856dc78.js.map": "/static/js/main.c856dc78.js.map"
+    "main.css": "/antFront/static/css/main.4a490040.css",
+    "main.js": "/antFront/static/js/main.495ea484.js",
+    "static/media/security-cameras-white-modern-building-technology-concept.jpg": "/antFront/static/media/security-cameras-white-modern-building-technology-concept.c2dac4e34cb0432b104d.jpg",
+    "static/media/wepik-photo-mode-202274-204916.png": "/antFront/static/media/wepik-photo-mode-202274-204916.57f80b2fb3293c3c6839.png",
+    "static/media/electrical.jpg": "/antFront/static/media/electrical.2642d1b27aa04a7058e9.jpg",
+    "static/media/wind-spring-white-stratosphere-pure.jpg": "/antFront/static/media/wind-spring-white-stratosphere-pure.33fba2c06e70137f1806.jpg",
+    "static/media/network.jpg": "/antFront/static/media/network.d1efcd5a4c01a0d91401.jpg",
+    "static/media/gsm-antenna-1499519.jpg": "/antFront/static/media/gsm-antenna-1499519.ef79297425cefdabeece.jpg",
+    "static/media/smartHome.jpg": "/antFront/static/media/smartHome.6b0866565075a2d8c537.jpg",
+    "index.html": "/antFront/index.html",
+    "main.4a490040.css.map": "/antFront/static/css/main.4a490040.css.map",
+    "main.495ea484.js.map": "/antFront/static/js/main.495ea484.js.map"
   },
   "entrypoints": [
-    "static/css/main.23d38db8.css",
-    "static/js/main.c856dc78.js"
+    "static/css/main.4a490040.css",
+    "static/js/main.495ea484.js"
   ]
 }
