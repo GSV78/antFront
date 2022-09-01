@@ -11,6 +11,8 @@
 }
 .subTitle {
   font-size: 2rem;
+  margin: 10px;
+  padding: 10px;
 }
 
 .page_content {
