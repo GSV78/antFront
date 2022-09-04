@@ -23,7 +23,7 @@
   padding: 1rem;
   /* max-width: 1720px; */
   margin: 0 auto;
-  font-family: var(--font-sans);
+  /* font-family: var(--font-sans); */
 }
 @media (min-width: 600px) {
   .page-content {
@@ -45,8 +45,8 @@
   padding: 1rem;
   width: 240px;
   text-align: center;
-  color: whitesmoke;
-  background-color: whitesmoke;
+  color: #fff;
+  text-shadow: 3px 3px 5px #000;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1),
     0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
 }
@@ -149,13 +149,14 @@
   cursor: pointer;
   margin-top: 1.5rem;
   padding: 0.75rem 1.5rem;
-  font-size: 0.65rem;
+  font-size: 0.75rem;
   font-weight: bold;
   letter-spacing: 0.025rem;
   text-transform: uppercase;
   color: white;
   background-color: black;
   border: none;
+  border-radius: 5px;
 }
 .btn:hover {
   background-color: #0d0d0d;
@@ -203,5 +204,18 @@
   .card:focus-within .content,
   .card:focus-within .content > *:not(.title) {
     transition-duration: 0s;
+  }
+}
+
+@media (max-width: 766px) {
+  .card:after {
+    background-color:  rgba(0, 0, 0, 0.25);
+    background-image: none;
+  }
+  .subTitle{
+    font-size: 22px;
+  }
+  .card {
+    width: 240px;
   }
 }

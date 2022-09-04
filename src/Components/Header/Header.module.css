@@ -67,6 +67,7 @@
   justify-content: space-between;
   align-items: center;
   text-align: center;
+  padding-top: 15px;
 }
 
 .leftSection,
@@ -167,11 +168,21 @@
     flex-direction: column;
     justify-content: space-between;
     height: 170px;
+    min-width:auto;
   }
-  /* .content {
-    height: 30vh;
-  } */
-  /* h1 {
-    font-size: 48px;
-  } */
+.phone, .title{
+  font-size: 32px;
+}
+}
+
+@media (max-width: 420px) {
+  .phone, .title {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 380px) {
+  .phone, .title {
+    font-size: 24px;
+  }
 }
