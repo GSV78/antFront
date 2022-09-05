@@ -133,11 +133,9 @@
   margin-top: 1rem;
 }
 .title {
-  color: azure;
+  color: #FFF;
   text-shadow: 2px 2px 3px black;
-  font-size: 1.3rem;
-  font-weight: bold;
-  line-height: 1.2;
+  font-size: 1.5rem;
 }
 .copy {
   font-family: var(--font-serif);
@@ -213,7 +211,7 @@
     background-image: none;
   }
   .subTitle{
-    font-size: 22px;
+    font-size: 26px;
   }
   .card {
     width: 240px;
