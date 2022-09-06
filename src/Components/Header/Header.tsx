@@ -5,7 +5,6 @@ import styles from './Header.module.css';
 function Header() {
   return (
     <div>
-      {/* Хоп-Хей-Ла-Ла-Лэй! */}
       <div className={styles.header}>
         <div className={styles.container}>
           <div className={`${styles.inner_header}  ${styles.flex}`}>
@@ -54,7 +53,7 @@ c131 -25 283 -142 388 -299 100 -149 154 -307 192 -561 28 -190 27 -208 -25
                   />
                 </g>
               </svg>
-              <h1 className={styles.title}>Муравей33.рф</h1>
+              <h1 className={styles.title}>Инженер33.рф</h1>
             </div>
             <div className={styles.rigthSection}>
               <div>
