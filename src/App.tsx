@@ -12,6 +12,7 @@ import Smarthome from './Components/Smarthome/Smarthome';
 import Install from './Components/Install/Install';
 import Gsm from './Components/Gsm/Gsm';
 import Footer from './Components/Footer/Footer';
+import Message from './Components/Message/Message';
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
         <Route path={'/smarthome/*'} element={<Smarthome />} />
         <Route path={'/install/*'} element={<Install />} />
         <Route path={'/gsm/*'} element={<Gsm />} />
+        <Route path={'/message/*'} element={<Message />} />
       </Routes>
       <Footer />
     </div>
