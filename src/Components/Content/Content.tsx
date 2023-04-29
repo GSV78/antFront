@@ -24,19 +24,16 @@ function Content() {
         <div>
           <h2 className={styles.title}>Немного о нас</h2>
           <p className={styles.text}>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi aliquid
-            reprehenderit quis enim esse dolorum, ipsum accusantium dolor praesentium dignissimos
-            cupiditate mollitia iure facilis nam quod ab velit. A, illum. Obcaecati doloribus eum
-            maiores quis eos nesciunt enim error velit. Veritatis, blanditiis placeat! Aspernatur
-            illo ducimus est, officia officiis aliquam eos ex earum nisi consequatur nesciunt quas
-            odit repellat in tenetur magni! Consequatur saepe odit, voluptatum minus, temporibus
-            laudantium, ex cupiditate fugiat exercitationem quam eveniet blanditiis! Obcaecati quas,
-            cupiditate neque commodi voluptatum culpa sit repudiandae aut tenetur distinctio
-            pariatur ex quos sed placeat numquam expedita! Debitis nisi aut magni iusto quo quos
-            sapiente praesentium, voluptatem tempore excepturi minus! Ipsum beatae voluptate
-            consectetur nihil ea minus veritatis blanditiis eius aspernatur quasi laborum,
-            accusantium nobis. Rem quidem praesentium beatae rerum inventore quod adipisci porro
-            tempora eaque nostrum! Nihil totam beatae laboriosam exercitationem.
+              Наша компания занимается электромонтажными работами уже более 20 лет, и мы гордимся своим опытом и профессионализмом. 
+          </p>
+          <p className={styles.text}>
+              Мы используем только самый современный и профессиональный инструмент, чтобы гарантировать высокое качество наших услуг.
+          </p>
+          <p className={styles.text}>
+              Наши мастера - опытные профессионалы, которые знают все тонкости своего дела и готовы выполнить любую задачу, связанную с электромонтажом.
+          </p>
+          <p className={styles.text}>
+              Обращайтесь к нам, и мы с радостью поможем вам решить любые проблемы, связанные с электромонтажом!
           </p>
         </div>
       </div>

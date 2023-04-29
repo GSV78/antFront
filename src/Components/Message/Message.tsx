@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Field, Form, Formik } from 'formik';
 import { useNavigate } from 'react-router-dom';
+import styles from './Message.module.css';
 
 type Values = {
   customerName: string;
@@ -42,8 +43,8 @@ const Message = () => {
   };
 
   return (
-    <div>
-      <div className="form">
+    <div className={styles.container}>
+      <div className={styles.form}>
         <h3>Заказ звонка</h3>
         <Formik
           initialValues={{ customerName: '', message: '', contactPhone: '', formOfPayment: 'cash' }}
@@ -54,42 +55,42 @@ const Message = () => {
           }}>
           {({ errors, touched }) => (
             <Form>
-              <div className="form__item">
+              <div className={styles.form__item}>
                 <label htmlFor="customerName">Ваше имя: </label>
                 <Field
                   name="customerName"
                   type="text"
-                  // placeholder="Иван"
+                  placeholder="Иван"
                 />
                 {touched.customerName && errors.customerName ? (
-                  <div className="form__error">{errors.customerName}</div>
+                  <div className={styles.form__error}>{errors.customerName}</div>
                 ) : null}
               </div>
-              <div className="form__item">
+              <div className={styles.form__item}>
                 <label htmlFor="contactPhone">Номер телефона: </label>
                 <Field
                   name="contactPhone"
                   type="text"
-                  // placeholder="+796032222333"
+                  placeholder="+796032222333"
                 />
                 {touched.contactPhone && errors.contactPhone ? (
-                  <div className="form__error">{errors.contactPhone}</div>
+                  <div className={styles.form__error}>{errors.contactPhone}</div>
                 ) : null}
               </div>
-              <div className="form__item">
+              <div className={styles.form__item}>
                 <label htmlFor="message">Сообщение: </label>
                 <Field
                   as="textarea"
                   name="message"
-                  // placeholder="ул.Ленина, д.1, кв.42"
+                  placeholder="Текст сообщения"
                 />
                 {touched.message && errors.message ? (
-                  <div className="form__error">{errors.message}</div>
+                  <div className={styles.form__error}>{errors.message}</div>
                 ) : null}
               </div>
-              <div className="form__item radio">
+              <div className={styles.form__item && styles.radio}>
                 <h3>Способ связи:</h3>
-                <div className="radio__buttons">
+                <div className={styles.radio__buttons}>
                   <label>
                     <Field type="radio" name="formOfPayment" value="cash" />
                     Звонок{' '}
@@ -108,11 +109,10 @@ const Message = () => {
                   </label>
                 </div>
               </div>
-              <div className="form__buttons">
+              <div className={styles.form__buttons}>
                 <button
                   type="button"
-                  onClick={onSuccess}
-                  className="button button--outline add__btn go-back-btn">
+                  onClick={onSuccess}>
                   <svg
                     width="8"
                     height="14"
@@ -129,7 +129,7 @@ const Message = () => {
                   </svg>
                   <span> Вернуться </span>
                 </button>
-                <button type="submit" className="button pay-btn">
+                <button type="submit" className={styles.button}>
                   <span> Сделать заказ </span>
                 </button>
               </div>
@@ -137,10 +137,10 @@ const Message = () => {
           )}
         </Formik>
       </div>
-      <div>
+      <div className={byeMessage ? styles.byeMessage : (`${styles.byeMessage} ${styles.unvisible}`)}>
         <h3>Ваш заказ принят.</h3>
-        <span>Спасибо за заказ. Ожидайте доставку.</span>
-        <button onClick={onSuccess} type="button" className="button pay-btn">
+        <span>Наш сотрудник свяжется с Вами.</span>
+        <button onClick={onSuccess} type="button" className={styles.bye_button}>
           Ok
         </button>
       </div>

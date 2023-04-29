@@ -1,3 +1,13 @@
+.container {
+    margin: 0 auto;
+    font-family: 'Muli', sans-serif;
+    /* display: flex; */
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    overflow-y: hidden;
+    max-width: 1400px;
+  }
 .form {
     font-size: 16px;
     font-weight: bold;
@@ -8,15 +18,16 @@
     width: 430px;
     height: 420px;
     padding: 20px;
-    border: 3px solid orangered;
+    border: 3px solid blue;
     background-color: #fff;
     border-radius: 30px;
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     margin: auto;
+    margin-top: 20px;
 }
 .form h2 {
     margin-left: 20px;
@@ -25,22 +36,22 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding: 10px;
+    padding: 15px;
 }
 .form__item label {
-    width: 80px;
+    width: 100px;
 }
 .form__item input {
     padding: 3px;
     margin: 5px;
-    width: 180px;
+    width: 200px;
 }
 .form__item input[type='radio'] {
     width: 20px;
 }
 .form__item textarea {
     resize: none;
-    width: 180px;
+    width: 200px;
     height: 55px;
     padding: 3px;
     margin: 3px;
@@ -51,10 +62,13 @@
 .form__item .radio {
     display: flex;
     justify-content: flex-start;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
-.form__item .radio.buttons {
+.form__item .radio__buttons {
     width: 100px;
+    margin-bottom: 15px;
+    padding-bottom: 20px;
 }
 .form__error {
     max-width: 100px;
@@ -64,19 +78,21 @@
 .form__buttons {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 10px;
+    margin: 20px;
 }
 .form__buttons span {
     font-size: 18px;
 }
 .byeMessage {
+    background-color: blueviolet;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    width: 450px;
-    height: 433px;
-    background-color: seagreen;
+    width: 500px;
+    height: 570px;
+    padding: 125px;
+    background-color:white;
     position: absolute;
     top: 0;
     bottom: 0;
