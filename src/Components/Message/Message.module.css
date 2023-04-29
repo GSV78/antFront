@@ -14,13 +14,13 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: fs;
-    width: 430px;
-    height: 420px;
+    align-items: center;
+    width: 100%;
+    height: 500px;
     padding: 20px;
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
     background-color: #fff;
-    border-radius: 30px;
+    /* border-radius: 30px; */
     /* position: fixed; */
     top: 0;
     bottom: 0;
@@ -78,7 +78,7 @@
 .form__buttons {
     display: flex;
     justify-content: space-between;
-    margin: 20px;
+    margin: 30px;
 }
 .form__buttons span {
     font-size: 18px;
@@ -89,11 +89,11 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    width: 500px;
-    height: 570px;
+    width: 100%;
+    height: 500px;
     padding: 125px;
     background-color:white;
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     bottom: 0;
     left: 0;
@@ -101,6 +101,12 @@
     margin: auto;
     border-radius: 30px;
 }
-.byeMessage.unvisible {
+.unvisible {
     display: none;
+}
+.button{
+    outline: none;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
 }

@@ -44,7 +44,7 @@ const Message = () => {
 
   return (
     <div className={styles.container}>
-      <div className={styles.form}>
+      <div className={!byeMessage ? styles.form : (`${styles.form} ${styles.unvisible}`)}>
         <h3>Заказ звонка</h3>
         <Formik
           initialValues={{ customerName: '', message: '', contactPhone: '', formOfPayment: 'cash' }}
@@ -112,12 +112,13 @@ const Message = () => {
               <div className={styles.form__buttons}>
                 <button
                   type="button"
+                  className={styles.button}   
                   onClick={onSuccess}>
                   <svg
                     width="8"
                     height="14"
                     viewBox="0 0 8 14"
-                    fill="none"
+                    fill="black"
                     xmlns="http://www.w3.org/2000/svg">
                     <path
                       d="M7 13L1 6.93015L6.86175 1"
@@ -139,8 +140,8 @@ const Message = () => {
       </div>
       <div className={byeMessage ? styles.byeMessage : (`${styles.byeMessage} ${styles.unvisible}`)}>
         <h3>Ваш заказ принят.</h3>
-        <span>Наш сотрудник свяжется с Вами.</span>
-        <button onClick={onSuccess} type="button" className={styles.bye_button}>
+        <span>Наш сотрудник свяжется с Вами в ближайшее время.</span>
+        <button onClick={onSuccess} type="button" className={styles.button}>
           Ok
         </button>
       </div>
