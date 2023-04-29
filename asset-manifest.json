@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/antFront/static/css/main.1eb254e6.css",
-    "main.js": "/antFront/static/js/main.a8b71565.js",
+    "main.css": "/antFront/static/css/main.4d2503ce.css",
+    "main.js": "/antFront/static/js/main.bcf2ec92.js",
     "static/media/security-cameras-white-modern-building-technology-concept.jpg": "/antFront/static/media/security-cameras-white-modern-building-technology-concept.c2dac4e34cb0432b104d.jpg",
     "static/media/wepik-photo-mode-202274-204916.png": "/antFront/static/media/wepik-photo-mode-202274-204916.57f80b2fb3293c3c6839.png",
     "static/media/electrical.jpg": "/antFront/static/media/electrical.2642d1b27aa04a7058e9.jpg",
@@ -10,11 +10,11 @@
     "static/media/gsm-antenna-1499519.jpg": "/antFront/static/media/gsm-antenna-1499519.ef79297425cefdabeece.jpg",
     "static/media/smartHome.jpg": "/antFront/static/media/smartHome.6b0866565075a2d8c537.jpg",
     "index.html": "/antFront/index.html",
-    "main.1eb254e6.css.map": "/antFront/static/css/main.1eb254e6.css.map",
-    "main.a8b71565.js.map": "/antFront/static/js/main.a8b71565.js.map"
+    "main.4d2503ce.css.map": "/antFront/static/css/main.4d2503ce.css.map",
+    "main.bcf2ec92.js.map": "/antFront/static/js/main.bcf2ec92.js.map"
   },
   "entrypoints": [
-    "static/css/main.1eb254e6.css",
-    "static/js/main.a8b71565.js"
+    "static/css/main.4d2503ce.css",
+    "static/js/main.bcf2ec92.js"
   ]
 }
