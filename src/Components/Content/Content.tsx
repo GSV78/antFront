@@ -2,13 +2,13 @@ import styles from './Content.module.css';
 import { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-import Conditioners from '../Conditioners/Conditioners';
-import Cameras from '../Cameras/Cameras';
-import Security from '../Security/Security';
-import Network from '../Network/Network';
-import Install from '../Install/Install';
-import Smarthome from '../Smarthome/Smarthome';
-import Gsm from '../Gsm/Gsm';
+// import Conditioners from '../Conditioners/Conditioners';
+// import Cameras from '../Cameras/Cameras';
+// import Security from '../Security/Security';
+// import Network from '../Network/Network';
+// import Install from '../Install/Install';
+// import Smarthome from '../Smarthome/Smarthome';
+// import Gsm from '../Gsm/Gsm';
 
 function Content() {
   useEffect(() => {
@@ -22,8 +22,8 @@ function Content() {
           className={styles.pic}
           src="https://img.freepik.com/free-photo/business-concept-with-team-close-up_23-2149151159.jpg?w=1380&t=st=1660414587~exp=1660415187~hmac=2656d8552e60011eed267267225331dd653101e11cb12f5f5fb35ce7870c15f6"></img>
         <div>
-          <h2 className={styles.title}>Немного о нас</h2>
-          <p className={styles.text}>
+          {/* <h2 className={styles.title}>Немного о нас</h2> */}
+          {/* <p className={styles.text}>
               Наша компания занимается электромонтажными работами уже более 20 лет, и мы гордимся своим опытом и профессионализмом. 
           </p>
           <p className={styles.text}>
@@ -34,11 +34,29 @@ function Content() {
           </p>
           <p className={styles.text}>
               Обращайтесь к нам, и мы с радостью поможем вам решить любые проблемы, связанные с электромонтажом!
+          </p> */}
+          <p className={styles.text}>
+            Благодарим вас за интерес к нашей компании, которая является одной из лучших в области электромонтажных и пусконаладочных работ.
+          </p>
+          <p className={styles.text}>
+          Специализация компании в этих областях на протяжении более 20 лет позволяет нам предоставлять высококачественные услуги нашим клиентам.
+          </p>
+          <p className={styles.text}>
+          Мы используем профессиональный инструмент и работаем только с опытными мастерами, которые могут выполнить любую задачу.
+          </p>
+          <p className={styles.text}>
+          Кроме того, мы предлагаем услуги по "под ключ", что означает, что мы можем взять на себя полный цикл работ, начиная от проектирования до сдачи объекта в эксплуатацию.
+          </p>
+          <p className={styles.text}>
+          Мы также обеспечиваем сервисное сопровождение после сдачи объекта в эксплуатацию, чтобы наши клиенты могли быть уверены в качестве нашей работы.
+          </p>
+          <p className={styles.text}>
+          Мы гарантируем, что с нами вы получите надежного партнера, который сделает все возможное, чтобы проект был выполнен в срок и на высоком уровне.
           </p>
         </div>
       </div>
       {/* <h3>Мы предлагаем услуги по монтажу и наладке:</h3> */}
-      <div data-aos="fade-up" className={styles.box}>
+      {/* <div data-aos="fade-up" className={styles.box}>
         <Conditioners />
       </div>{' '}
       <div data-aos="fade-up" className={styles.box}>
@@ -58,7 +76,7 @@ function Content() {
       </div>{' '}
       <div data-aos="fade-up" className={styles.box}>
         <Gsm />
-      </div>
+      </div> */}
     </div>
   );
 }

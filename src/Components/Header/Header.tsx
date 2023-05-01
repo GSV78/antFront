@@ -1,8 +1,14 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import Button from '../Button/Button';
 import styles from './Header.module.css';
 
 function Header() {
+  const navigate = useNavigate()
+
+  const home = () => {
+    navigate('/');
+  };
   return (
     <div>
       <div className={styles.header}>
@@ -53,7 +59,7 @@ c131 -25 283 -142 388 -299 100 -149 154 -307 192 -561 28 -190 27 -208 -25
                   />
                 </g>
               </svg>
-              <h1 className={styles.title}>Инженер33.рф</h1>
+              <h1 className={styles.title} onClick={home}>Инженер33.рф</h1>
             </div>
             <div className={styles.rigthSection}>
               <div>

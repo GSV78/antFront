@@ -99,7 +99,7 @@
     left: 0;
     right: 0;
     margin: auto;
-    border-radius: 30px;
+    /* border-radius: 30px; */
 }
 .unvisible {
     display: none;
